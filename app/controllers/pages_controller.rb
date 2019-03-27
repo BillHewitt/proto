@@ -93,4 +93,7 @@ class PagesController < ApplicationController
   def welcome3
   end
 
+  def watched
+  end
+
 end
