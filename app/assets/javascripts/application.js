@@ -12,8 +12,8 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require bootstrap
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require bootstrap/bootstrap-tooltip
 //= require_tree .
