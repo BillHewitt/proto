@@ -163,7 +163,9 @@
     <div class="">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h4>Recent Activity <a href="#" class="btn btn-link text-primary float-right">Visit The Culture Hub <i class="fa fa-angle-right"></i></a></h4>
+                    <h4>Recent Activity <%= link_to pages_feed_path do %>
+                    <button type="button" class="btn btn-link text-primary float-right">Visit Culture Hub <i class="fa fa-angle-right"></i></button>
+                    <% end %></h4>
                     <br>
                   </div>
                 </div>
@@ -239,7 +241,9 @@
               <br>
               <br>
               <br>
-    <h4>Recommended for you <a href="#" class="btn btn-link text-primary float-right">Visit Marketplace <i class="fa fa-angle-right"></i></a></h4>
+    <h4>Recommended for you <%= link_to pages_market_path do %>
+                    <button type="button" class="btn btn-link text-primary float-right">Visit Marketplace <i class="fa fa-angle-right"></i></button>
+                    <% end %></h4>
     <br>
   </div>
 </div>
@@ -294,7 +298,9 @@
               <div class="">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h4>Popular Company Perks <a href="#" class="btn btn-link text-primary float-right">Visit Company Perks <i class="fa fa-angle-right"></i></a></h4>
+                    <h4>Popular Company Perks <%= link_to pages_companyperks_path do %>
+                    <button type="button" class="btn btn-link text-primary float-right">Visit Company Perks <i class="fa fa-angle-right"></i></button>
+                    <% end %></h4>
                     <br>
                   </div>
                 </div>
