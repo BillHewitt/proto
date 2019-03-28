@@ -28,17 +28,7 @@
                   <div class="col-lg-7">
                     <p>
                       <div class="row">
-                    <div class="col-md-12">
-                      <%= link_to pages_feed1_path do %>
-                        <button type="button" class="btn btn-1 btn-outline-primary">You</button>
-                      <% end %>
-                      <%= link_to pages_feed_path do %>
-                        <button type="button" class="btn btn-primary">Your Team</button>
-                      <% end %>
-                      <%= link_to pages_feed_path do %>
-                        <button type="button" class="btn btn-1 btn-outline-primary">Your Company</button>
-                      <% end %>
-                    </div>
+                    
                 </div>
                     </p>
                     <div class="collapse" id="collapseExample">
@@ -163,12 +153,12 @@
               </div>
 <hr>
 
-<div class="container">
+<div class="">
   <div class="row">
     <div class="col-md-8">
       <div class="row">
   <div class="col-lg-12">
-    <h4>Your Team 
+    <h4>Your Feed
 
       <div class="btn-group float-right">
         <button type="button" class="btn btn-link text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort By <i class="fa fa-angle-down"></i></button>
@@ -185,6 +175,15 @@
           <a class="dropdown-item" href="#">Polls</a>
           <a class="dropdown-item" href="#">Recognition</a>
           <a class="dropdown-item" href="#">Survey Feedback</a>
+        </div>
+      </div><!-- /btn-group -->
+      <div class="btn-group float-right">
+        <button type="button" class="btn btn-link text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My teams<i class="fa fa-angle-down"></i></button>
+        <div class="dropdown-menu">
+          <%= link_to pages_feed_path do %>
+            <button type="button" class="dropdown-item">Everything</button>
+          <% end %>
+          <a class="dropdown-item" href="#">Just me</a>
         </div>
       </div><!-- /btn-group -->
 
@@ -273,7 +272,7 @@
       <div class="">
         <div class="card-body py-3">
           <h6 class="text-default text-uppercase">Have your say</h6>
-          <p class="description mt-3">Help shape your team with anonymous feedback.</p>
+          <p class="description mt-3">Help shape your company with anonymous feedback.</p>
           <a href="#" class="btn btn-primary mt-4 btn-block">Send anonymous feedback</a>
         </div>
         <a href="#" class="btn btn-link text-primary">Learn more <i class="fa fa-angle-right"></i></a>
@@ -284,8 +283,9 @@
     
       <div class="">
         <div class="card-body py-3">
-          <h6 class="text-default text-uppercase">Team Hall Of Fame</h6>
-          <p class="description mt-3">See who's been awarded the company accolades.</p>
+          <h6 class="text-default text-uppercase">Recognise Someone</h6>
+          <p class="description mt-3">
+          <p class="description mt-3">Time to make a colleague's day! Who has helped you out or done something amazing recently?</p>
           <div>
             <span class="avatar avatar-lg rounded-circle">
                 <%= image_tag "bill.jpg" %>
@@ -297,7 +297,7 @@
                 <%= image_tag "elsa.jpg" %>
             </span>
           </div>
-          <a href="#" class="btn btn-primary mt-4 btn-block">Nominate a peer</a>
+          <a href="#" class="btn btn-primary mt-4 btn-block">Recognise Someone</a>
         </div>
         <a href="#" class="btn btn-link text-primary">Learn more <i class="fa fa-angle-right"></i></a>
       </div>
